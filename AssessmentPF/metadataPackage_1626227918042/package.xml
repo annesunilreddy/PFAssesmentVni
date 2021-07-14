@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+  <types>
+    <name>ApexClass</name>
+    <members>CalendariFicServiceClass</members>
+    <members>CalendariFicServiceClassTest</members>
+    <members>MockHttpResponseGenerator</members>
+    <members>wrapResponse</members>
+  </types>
+  <types>
+    <name>Layout</name>
+    <members>User-User Layout</members>
+    <members>UserAlt-User Profile Layout</members>
+  </types>
+  <types>
+    <name>LightningComponentBundle</name>
+    <members>demolwc</members>
+  </types>
+  <types>
+    <name>CustomField</name>
+    <members>User.Favorite_Holiday__c</members>
+  </types>
+  <types>
+    <name>Profile</name>
+    <members>Admin</members>
+    <members>Standard</members>
+    <members>StandardAul</members>
+  </types>
+  <types>
+    <name>RemoteSiteSetting</name>
+    <members>ApexDevNet</members>
+    <members>Holiday_Calenderific</members>
+  </types>
+  <types>
+    <name>CustomTab</name>
+    <members>Load_Holiday</members>
+  </types>
+  <version>52.0</version>
+</Package>

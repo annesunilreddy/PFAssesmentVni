@@ -1,0 +1,11 @@
+<template>
+    <lightning-card title="Holidays">  
+            
+        <lightning-button slot="actions" label="Mark Favorite" onclick={updateUserRecords}></lightning-button>  
+        <br/>
+        <div class="slds-box">  
+            <lightning-datatable columns={columns} data={holidaysList.data} key-field="name">
+            </lightning-datatable>
+        </div>
+    </lightning-card>
+</template>
